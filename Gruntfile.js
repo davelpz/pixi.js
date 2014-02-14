@@ -189,7 +189,7 @@ module.exports = function(grunt) {
                 files: ['<%= dirs.src %>/**/*.js'],
                 tasks: ['concat'],
                 options: {
-                    spawn: false,
+                    spawn: false
                 }
             }
         },
